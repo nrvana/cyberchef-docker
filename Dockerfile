@@ -1,5 +1,7 @@
 FROM httpd
 
+LABEL version="8.17.2"
+
 ENV HTTPD_PREFIX /usr/local/apache2
 ENV PATH $HTTPD_PREFIX/bin:$PATH
 
